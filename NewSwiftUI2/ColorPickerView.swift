@@ -1,4 +1,4 @@
-//
+// https://github.com/m760622/NewSwiftUI2/blob/main/NewSwiftUI2/ColorPickerView.swift
 //  ColorPickerView.swift
 //  NewSwiftUI2
 // m7606225@gmail.com
@@ -21,7 +21,7 @@ struct ColorPickerView: View {
             .navigationBarTitle(Text("ColorPicker View"), displayMode: .inline)
         }
     }//body
-}
+}//ColorPickerView
 
 struct ColorPickerView_Previews: PreviewProvider {
     static var previews: some View {
