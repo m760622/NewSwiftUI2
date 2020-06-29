@@ -1,4 +1,4 @@
-//
+// https://github.com/m760622/NewSwiftUI2/blob/main/NewSwiftUI2/ProgressAView.swift
 //  ProgressAView.swift
 //  NewSwiftUI2
 // m7606225@gmail.com
@@ -16,12 +16,12 @@ struct ProgressAView: View {
             VStack {
                 ProgressView("Downloading…", value: downloadAmount, total: 100)
                     .padding(.all, 10)
-                    .padding(.top, 50)
+                    .padding(.top, 150)
                 Spacer()
             }
             .onReceive(timer) { _ in
                 if downloadAmount < 100 {
-                    downloadAmount += 2
+                    downloadAmount += 5
                 }
             }
             .navigationBarTitle(Text("ProgressView"), displayMode: .inline)

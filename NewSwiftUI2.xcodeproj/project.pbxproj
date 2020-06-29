@@ -14,6 +14,7 @@
 		4FA141C124A816E000BB7754 /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA141C024A816E000BB7754 /* ColorPickerView.swift */; };
 		4FA141C324A92C4600BB7754 /* ProgressAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA141C224A92C4600BB7754 /* ProgressAView.swift */; };
 		4FA141C524A92EB200BB7754 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA141C424A92EB200BB7754 /* VideoPlayerView.swift */; };
+		4FA141C924AA895800BB7754 /* LazyVHStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA141C824AA895800BB7754 /* LazyVHStackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		4FA141C024A816E000BB7754 /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
 		4FA141C224A92C4600BB7754 /* ProgressAView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressAView.swift; sourceTree = "<group>"; };
 		4FA141C424A92EB200BB7754 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		4FA141C824AA895800BB7754 /* LazyVHStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVHStackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				4FA141C024A816E000BB7754 /* ColorPickerView.swift */,
 				4FA141C224A92C4600BB7754 /* ProgressAView.swift */,
 				4FA141C424A92EB200BB7754 /* VideoPlayerView.swift */,
+				4FA141C824AA895800BB7754 /* LazyVHStackView.swift */,
 				4FA141B524A7B02400BB7754 /* Assets.xcassets */,
 				4FA141BA24A7B02400BB7754 /* Info.plist */,
 				4FA141B724A7B02400BB7754 /* Preview Content */,
@@ -150,6 +153,7 @@
 				4FA141B424A7B02200BB7754 /* ContentView.swift in Sources */,
 				4FA141C324A92C4600BB7754 /* ProgressAView.swift in Sources */,
 				4FA141B224A7B02200BB7754 /* NewSwiftUI2App.swift in Sources */,
+				4FA141C924AA895800BB7754 /* LazyVHStackView.swift in Sources */,
 				4FA141C124A816E000BB7754 /* ColorPickerView.swift in Sources */,
 				4FA141C524A92EB200BB7754 /* VideoPlayerView.swift in Sources */,
 			);

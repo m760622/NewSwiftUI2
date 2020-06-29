@@ -1,4 +1,4 @@
-//
+// https://github.com/m760622/NewSwiftUI2/blob/main/NewSwiftUI2/VideoPlayerView.swift
 //  VideoPlayerView.swift
 //  NewSwiftUI2
 // m7606225@gmail.com
@@ -8,25 +8,25 @@
 import SwiftUI
 import AVKit
 
-//https://bit.ly/swswift
 struct VideoPlayerView: View {
     var body: some View {
         NavigationView {
-            
-            VideoPlayer(player: AVPlayer(url:  URL(string: "https://cutt.ly/NiGD0d8")!)) {
+            VideoPlayer(player: AVPlayer(url:  URL(string: "https://cutt.ly/QiXfZqw")!)) {
+                
                 VStack {
-                    Text("Niagara Falls, Canada")
+                    Text("Aerial Shot of Beach and Palm Trees")
                         .font(.body)
-                        .padding(.all, 10)
+                        .padding(.horizontal, 20)
+                        .padding(.vertical, 5)
                         .foregroundColor(.white)
                         .background(Color.blue.opacity(0.7))
                         .clipShape(Capsule())
                     Spacer()
                 }//VStack
+                
             }//VideoPlayer
             .navigationBarTitle(Text("VideoPlayer View"), displayMode: .inline)
-        }
-        
+        }//NavigationView
     }//body
 }//VideoPlayerView
 

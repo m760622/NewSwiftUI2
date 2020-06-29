@@ -29,6 +29,11 @@ struct ContentView: View {
                         NavigationLink(destination: VideoPlayerView()) {
                             Text("VideoPlayerView")
                         }
+                        NavigationLink(destination: LazyVHStackView()) {
+                            Text("LazyVHStackView")
+                        }
+
+                        
                     }//Group
                 }//Section
             }//List
