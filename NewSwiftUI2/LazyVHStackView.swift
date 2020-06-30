@@ -22,7 +22,7 @@ struct LazyVHStackView: View {
                     LazyHStack(spacing: 10) {
                         ForEach(0..<1000) { index in
                             Text("\(index)")
-                                .frame(width: 30, height: 300)
+                                .frame(width: 50, height: 300)
                                 .background(Color.blue.opacity(0.9))
                                 .clipShape(Capsule())
                         }

@@ -33,6 +33,10 @@ struct ContentView: View {
                             Text("LazyVHStackView")
                         }
 
+                        NavigationLink(destination: linkView()) {
+                            Text("linkView")
+                        }
+
                         
                     }//Group
                 }//Section
