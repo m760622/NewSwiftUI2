@@ -17,6 +17,11 @@
 		4FA141C924AA895800BB7754 /* LazyVHStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA141C824AA895800BB7754 /* LazyVHStackView.swift */; };
 		4FA141CB24AB6FFC00BB7754 /* LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA141CA24AB6FFC00BB7754 /* LabelView.swift */; };
 		4FA141CD24AB736C00BB7754 /* linkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA141CC24AB736C00BB7754 /* linkView.swift */; };
+		4FA141CF24AC86A300BB7754 /* DisclosureGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA141CE24AC86A300BB7754 /* DisclosureGroupView.swift */; };
+		4FA141D124AC99A700BB7754 /* ExpandingListsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA141D024AC99A700BB7754 /* ExpandingListsView.swift */; };
+		4FA141D324ACAF7500BB7754 /* TextFieldOnChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA141D224ACAF7500BB7754 /* TextFieldOnChangeView.swift */; };
+		4FA141D524ACBAAB00BB7754 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA141D424ACBAAB00BB7754 /* DatePickerView.swift */; };
+		4FA141D724ACD28300BB7754 /* AppStorageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA141D624ACD28300BB7754 /* AppStorageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +37,11 @@
 		4FA141C824AA895800BB7754 /* LazyVHStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVHStackView.swift; sourceTree = "<group>"; };
 		4FA141CA24AB6FFC00BB7754 /* LabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelView.swift; sourceTree = "<group>"; };
 		4FA141CC24AB736C00BB7754 /* linkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = linkView.swift; sourceTree = "<group>"; };
+		4FA141CE24AC86A300BB7754 /* DisclosureGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclosureGroupView.swift; sourceTree = "<group>"; };
+		4FA141D024AC99A700BB7754 /* ExpandingListsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandingListsView.swift; sourceTree = "<group>"; };
+		4FA141D224ACAF7500BB7754 /* TextFieldOnChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldOnChangeView.swift; sourceTree = "<group>"; };
+		4FA141D424ACBAAB00BB7754 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
+		4FA141D624ACD28300BB7754 /* AppStorageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,9 +79,14 @@
 				4FA141C024A816E000BB7754 /* ColorPickerView.swift */,
 				4FA141C224A92C4600BB7754 /* ProgressAView.swift */,
 				4FA141C424A92EB200BB7754 /* VideoPlayerView.swift */,
-				4FA141CA24AB6FFC00BB7754 /* LabelView.swift */,
-				4FA141CC24AB736C00BB7754 /* linkView.swift */,
 				4FA141C824AA895800BB7754 /* LazyVHStackView.swift */,
+				4FA141CC24AB736C00BB7754 /* linkView.swift */,
+				4FA141CE24AC86A300BB7754 /* DisclosureGroupView.swift */,
+				4FA141D024AC99A700BB7754 /* ExpandingListsView.swift */,
+				4FA141D224ACAF7500BB7754 /* TextFieldOnChangeView.swift */,
+				4FA141D424ACBAAB00BB7754 /* DatePickerView.swift */,
+				4FA141D624ACD28300BB7754 /* AppStorageView.swift */,
+				4FA141CA24AB6FFC00BB7754 /* LabelView.swift */,
 				4FA141B524A7B02400BB7754 /* Assets.xcassets */,
 				4FA141BA24A7B02400BB7754 /* Info.plist */,
 				4FA141B724A7B02400BB7754 /* Preview Content */,
@@ -159,11 +174,16 @@
 				4FA141B424A7B02200BB7754 /* ContentView.swift in Sources */,
 				4FA141C324A92C4600BB7754 /* ProgressAView.swift in Sources */,
 				4FA141CD24AB736C00BB7754 /* linkView.swift in Sources */,
+				4FA141D724ACD28300BB7754 /* AppStorageView.swift in Sources */,
+				4FA141D124AC99A700BB7754 /* ExpandingListsView.swift in Sources */,
 				4FA141CB24AB6FFC00BB7754 /* LabelView.swift in Sources */,
+				4FA141D324ACAF7500BB7754 /* TextFieldOnChangeView.swift in Sources */,
+				4FA141D524ACBAAB00BB7754 /* DatePickerView.swift in Sources */,
 				4FA141B224A7B02200BB7754 /* NewSwiftUI2App.swift in Sources */,
 				4FA141C924AA895800BB7754 /* LazyVHStackView.swift in Sources */,
 				4FA141C124A816E000BB7754 /* ColorPickerView.swift in Sources */,
 				4FA141C524A92EB200BB7754 /* VideoPlayerView.swift in Sources */,
+				4FA141CF24AC86A300BB7754 /* DisclosureGroupView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
