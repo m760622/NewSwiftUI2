@@ -1,9 +1,9 @@
-//
+// https://github.com/m760622/NewSwiftUI2/blob/main/NewSwiftUI2/MatchedGeometryEffectView.swift
 //  MatchedGeometryEffectView.swift
 //  NewSwiftUI2
-//
+// m7606225@gmail.com
 //  Created by Mohammed Abunada on 2020-07-08.
-//
+// https://github.com/m760622
 
 import SwiftUI
 
@@ -19,7 +19,7 @@ struct MatchedGeometryEffectView: View {
         }//NavigationView
         
     }//body
-}
+}//MatchedGeometryEffectView
 
 struct MatchedGeometryEffectView_Previews: PreviewProvider {
     static var previews: some View {
@@ -38,19 +38,19 @@ struct FlippView: View {
             if isFlipped {
                 Circle()
                     .fill(Color.red)
-                    .frame(width: 44, height: 44)
-                    .matchedGeometryEffect(id: "Shape", in: animation)
-                Text("Mohammed Abunada - 1976")
-                    .matchedGeometryEffect(id: "AlbumTitle", in: animation)
-                    .font(.headline)
+                    .frame(width: 77, height: 77)
+                    .matchedGeometryEffect(id: "Circle", in: animation)
+                Text("محمد أبو ندى - 1976")
+                    .matchedGeometryEffect(id: "Text", in: animation)
+                    .font(.largeTitle)
             } else {
                 Text("Mohammed Abunada - 1976")
-                    .matchedGeometryEffect(id: "AlbumTitle", in: animation)
-                    .font(.headline)
+                    .matchedGeometryEffect(id: "Text", in: animation)
+                    .font(.title)
                 Circle()
                     .fill(Color.blue)
                     .frame(width: 44, height: 44)
-                    .matchedGeometryEffect(id: "Shape", in: animation)
+                    .matchedGeometryEffect(id: "Circle", in: animation)
             }
         }
         .onTapGesture {
@@ -66,8 +66,10 @@ struct FlippView: View {
 struct ZoomView: View {
     @Namespace private var animation
     @State private var isZoomed = false
+    let screenWidth: CGFloat = UIScreen.main.bounds.width
+    
     var frame: CGFloat {
-        isZoomed ? 400 : 44
+        isZoomed ? screenWidth - 40 : 44
     }
     
     var body: some View {
@@ -80,20 +82,19 @@ struct ZoomView: View {
                         .frame(width: frame, height: frame)
                         .padding(.top, isZoomed ? 20 : 0)
                     if isZoomed == false {
-                        Text("Mohammed Abunada - 1976")
-                            .matchedGeometryEffect(id: "AlbumTitle", in: animation)
-                            .font(.headline)
+                        Text("محمد أبو ندى - 1976")
+                            .matchedGeometryEffect(id: "Text", in: animation)
+                            .font(.title)
+                            .foregroundColor(.white)
                         Spacer()
                     }
-                }
+                }//HStack
                 if isZoomed == true {
                     Text("Mohammed Abunada - 1976")
-                        .matchedGeometryEffect(id: "AlbumTitle", in: animation)
+                        .matchedGeometryEffect(id: "Text", in: animation)
                         .font(.headline)
-                        .padding(.bottom, 60)
-                    Spacer()
                 }
-            }
+            }//VStack
             .onTapGesture {
                 withAnimation(.spring()) {
                     self.isZoomed.toggle()
@@ -101,8 +102,8 @@ struct ZoomView: View {
             }
             .padding()
             .frame(maxWidth: .infinity)
-            .frame(height: isZoomed ? 400 : 60)
-            .background(Color(white: 0.9))
+            .frame(height: isZoomed ? screenWidth + 20 : 60)
+            .background(Color.blue.opacity(0.5))
         }
     }//body
 }//ZoomView
