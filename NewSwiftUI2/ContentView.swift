@@ -17,6 +17,9 @@ struct ContentView: View {
                         NavigationLink(destination: ColorPickerView()) {
                             Text("ColorPickerView")
                         }
+                        NavigationLink(destination: DatePickerView()) {
+                            Text("DatePickerView")
+                        }
                     }//Group
                 }//Section
                 
@@ -32,11 +35,56 @@ struct ContentView: View {
                         NavigationLink(destination: LazyVHStackView()) {
                             Text("LazyVHStackView")
                         }
-
                         NavigationLink(destination: linkView()) {
                             Text("linkView")
                         }
+                        NavigationLink(destination: DisclosureGroupView()) {
+                            Text("DisclosureGroupView")
+                        }
+                        NavigationLink(destination: ExpandingListsView()) {
+                            Text("ExpandingListsView")
+                        }
+                        NavigationLink(destination: TextFieldOnChangeView()) {
+                            Text("TextFieldOnChangeView")
+                        }
+                        NavigationLink(destination: AppStorageView()) {
+                            Text("AppStorageView")
+                        }
+                        NavigationLink(destination: MatchedGeometryEffectView()) {
+                            Text("MatchedGeometryEffectView")
+                        }
+                        NavigationLink(destination: ScrollViewReaderView()) {
+                            Text("ScrollViewReaderView")
+                        }
+                    }//Group
+                    
+                    Group{
+                        NavigationLink(destination: FullScreenCoverView()) {
+                            Text("FullScreenCoverView")
+                        }
+                        NavigationLink(destination: DateFormattingView()) {
+                            Text("DateFormattingView")
+                        }
+                        NavigationLink(destination: InsetGroupedListStyleView()) {
+                            Text("InsetGroupedListStyleView")
+                        }
+                        NavigationLink(destination: SFSymbolsMulticolorView()) {
+                            Text("SFSymbolsMulticolorView")
+                        }
+                        NavigationLink(destination: ExportActionView()) {
+                            Text("ExportActionView")
+                        }
+                        NavigationLink(destination: AppStoreOverlayView()) {
+                            Text("AppStoreOverlayView")
+                        }
+                        NavigationLink(destination: SpriteKitView()) {
+                            Text("SpriteKitView")
+                        }
+                        NavigationLink(destination: ToolbarItemView()) {
+                            Text("ToolbarItemView")
+                        }
 
+                        
                         
                     }//Group
                 }//Section

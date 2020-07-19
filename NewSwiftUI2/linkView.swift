@@ -13,7 +13,7 @@ struct linkView: View {
     let titleString: String =  "SwiftUIArabic"
 
     var body: some View {
-        
+
         NavigationView {
             VStack{
                 Link(destination: URL(string: urlString)!) {

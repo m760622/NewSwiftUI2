@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F1EBD6724B6028C003FB3EB /* MatchedGeometryEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1EBD6624B6028C003FB3EB /* MatchedGeometryEffectView.swift */; };
+		4F376EDD24BA0DF600851645 /* DateFormattingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F376EDC24BA0DF600851645 /* DateFormattingView.swift */; };
+		4F4F64E224C09F00003A6628 /* SpriteKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4F64E124C09F00003A6628 /* SpriteKitView.swift */; };
+		4F8A3E2024B78DFA00F99461 /* ScrollViewReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8A3E1F24B78DFA00F99461 /* ScrollViewReaderView.swift */; };
+		4F9A0CB424BB797B0096B89C /* InsetGroupedListStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9A0CB324BB797B0096B89C /* InsetGroupedListStyleView.swift */; };
+		4F9B999E24B7E48B00892DB6 /* FullScreenCoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9B999D24B7E48B00892DB6 /* FullScreenCoverView.swift */; };
 		4FA141B224A7B02200BB7754 /* NewSwiftUI2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA141B124A7B02200BB7754 /* NewSwiftUI2App.swift */; };
 		4FA141B424A7B02200BB7754 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA141B324A7B02200BB7754 /* ContentView.swift */; };
 		4FA141B624A7B02400BB7754 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FA141B524A7B02400BB7754 /* Assets.xcassets */; };
@@ -22,9 +28,21 @@
 		4FA141D324ACAF7500BB7754 /* TextFieldOnChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA141D224ACAF7500BB7754 /* TextFieldOnChangeView.swift */; };
 		4FA141D524ACBAAB00BB7754 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA141D424ACBAAB00BB7754 /* DatePickerView.swift */; };
 		4FA141D724ACD28300BB7754 /* AppStorageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA141D624ACD28300BB7754 /* AppStorageView.swift */; };
+		4FA9795824BD1C8F005177DD /* ExportActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA9795724BD1C8F005177DD /* ExportActionView.swift */; };
+		4FA9795A24BD26F6005177DD /* TextCaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA9795924BD26F6005177DD /* TextCaseView.swift */; };
+		4FACF25424BB8DB7005FD8E8 /* AppStoreOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FACF25324BB8DB7005FD8E8 /* AppStoreOverlayView.swift */; };
+		4FACF25624BBE677005FD8E8 /* SFSymbolsMulticolorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FACF25524BBE677005FD8E8 /* SFSymbolsMulticolorView.swift */; };
+		4FDEDCEA24C4AA72003DC49F /* TabViewStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDEDCE924C4AA72003DC49F /* TabViewStyleView.swift */; };
+		4FDEDCED24C4AC30003DC49F /* ToolbarItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDEDCEC24C4AC30003DC49F /* ToolbarItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F1EBD6624B6028C003FB3EB /* MatchedGeometryEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffectView.swift; sourceTree = "<group>"; };
+		4F376EDC24BA0DF600851645 /* DateFormattingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormattingView.swift; sourceTree = "<group>"; };
+		4F4F64E124C09F00003A6628 /* SpriteKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitView.swift; sourceTree = "<group>"; };
+		4F8A3E1F24B78DFA00F99461 /* ScrollViewReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderView.swift; sourceTree = "<group>"; };
+		4F9A0CB324BB797B0096B89C /* InsetGroupedListStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetGroupedListStyleView.swift; sourceTree = "<group>"; };
+		4F9B999D24B7E48B00892DB6 /* FullScreenCoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenCoverView.swift; sourceTree = "<group>"; };
 		4FA141AE24A7B02200BB7754 /* NewSwiftUI2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewSwiftUI2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FA141B124A7B02200BB7754 /* NewSwiftUI2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSwiftUI2App.swift; sourceTree = "<group>"; };
 		4FA141B324A7B02200BB7754 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,6 +60,12 @@
 		4FA141D224ACAF7500BB7754 /* TextFieldOnChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldOnChangeView.swift; sourceTree = "<group>"; };
 		4FA141D424ACBAAB00BB7754 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
 		4FA141D624ACD28300BB7754 /* AppStorageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageView.swift; sourceTree = "<group>"; };
+		4FA9795724BD1C8F005177DD /* ExportActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportActionView.swift; sourceTree = "<group>"; };
+		4FA9795924BD26F6005177DD /* TextCaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCaseView.swift; sourceTree = "<group>"; };
+		4FACF25324BB8DB7005FD8E8 /* AppStoreOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreOverlayView.swift; sourceTree = "<group>"; };
+		4FACF25524BBE677005FD8E8 /* SFSymbolsMulticolorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbolsMulticolorView.swift; sourceTree = "<group>"; };
+		4FDEDCE924C4AA72003DC49F /* TabViewStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewStyleView.swift; sourceTree = "<group>"; };
+		4FDEDCEC24C4AC30003DC49F /* ToolbarItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarItemView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +98,7 @@
 		4FA141B024A7B02200BB7754 /* NewSwiftUI2 */ = {
 			isa = PBXGroup;
 			children = (
+				4FDEDCEB24C4AA8C003DC49F /* Other */,
 				4FA141B124A7B02200BB7754 /* NewSwiftUI2App.swift */,
 				4FA141B324A7B02200BB7754 /* ContentView.swift */,
 				4FA141C024A816E000BB7754 /* ColorPickerView.swift */,
@@ -86,7 +111,16 @@
 				4FA141D224ACAF7500BB7754 /* TextFieldOnChangeView.swift */,
 				4FA141D424ACBAAB00BB7754 /* DatePickerView.swift */,
 				4FA141D624ACD28300BB7754 /* AppStorageView.swift */,
-				4FA141CA24AB6FFC00BB7754 /* LabelView.swift */,
+				4F1EBD6624B6028C003FB3EB /* MatchedGeometryEffectView.swift */,
+				4F8A3E1F24B78DFA00F99461 /* ScrollViewReaderView.swift */,
+				4F9B999D24B7E48B00892DB6 /* FullScreenCoverView.swift */,
+				4F376EDC24BA0DF600851645 /* DateFormattingView.swift */,
+				4F9A0CB324BB797B0096B89C /* InsetGroupedListStyleView.swift */,
+				4FACF25524BBE677005FD8E8 /* SFSymbolsMulticolorView.swift */,
+				4FA9795924BD26F6005177DD /* TextCaseView.swift */,
+				4FACF25324BB8DB7005FD8E8 /* AppStoreOverlayView.swift */,
+				4F4F64E124C09F00003A6628 /* SpriteKitView.swift */,
+				4FDEDCEC24C4AC30003DC49F /* ToolbarItemView.swift */,
 				4FA141B524A7B02400BB7754 /* Assets.xcassets */,
 				4FA141BA24A7B02400BB7754 /* Info.plist */,
 				4FA141B724A7B02400BB7754 /* Preview Content */,
@@ -100,6 +134,16 @@
 				4FA141B824A7B02400BB7754 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4FDEDCEB24C4AA8C003DC49F /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				4FDEDCE924C4AA72003DC49F /* TabViewStyleView.swift */,
+				4FA9795724BD1C8F005177DD /* ExportActionView.swift */,
+				4FA141CA24AB6FFC00BB7754 /* LabelView.swift */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,18 +215,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F8A3E2024B78DFA00F99461 /* ScrollViewReaderView.swift in Sources */,
+				4F9B999E24B7E48B00892DB6 /* FullScreenCoverView.swift in Sources */,
 				4FA141B424A7B02200BB7754 /* ContentView.swift in Sources */,
+				4FACF25624BBE677005FD8E8 /* SFSymbolsMulticolorView.swift in Sources */,
 				4FA141C324A92C4600BB7754 /* ProgressAView.swift in Sources */,
 				4FA141CD24AB736C00BB7754 /* linkView.swift in Sources */,
 				4FA141D724ACD28300BB7754 /* AppStorageView.swift in Sources */,
+				4FDEDCEA24C4AA72003DC49F /* TabViewStyleView.swift in Sources */,
 				4FA141D124AC99A700BB7754 /* ExpandingListsView.swift in Sources */,
 				4FA141CB24AB6FFC00BB7754 /* LabelView.swift in Sources */,
+				4F4F64E224C09F00003A6628 /* SpriteKitView.swift in Sources */,
 				4FA141D324ACAF7500BB7754 /* TextFieldOnChangeView.swift in Sources */,
 				4FA141D524ACBAAB00BB7754 /* DatePickerView.swift in Sources */,
 				4FA141B224A7B02200BB7754 /* NewSwiftUI2App.swift in Sources */,
+				4FACF25424BB8DB7005FD8E8 /* AppStoreOverlayView.swift in Sources */,
+				4FDEDCED24C4AC30003DC49F /* ToolbarItemView.swift in Sources */,
 				4FA141C924AA895800BB7754 /* LazyVHStackView.swift in Sources */,
 				4FA141C124A816E000BB7754 /* ColorPickerView.swift in Sources */,
+				4F376EDD24BA0DF600851645 /* DateFormattingView.swift in Sources */,
 				4FA141C524A92EB200BB7754 /* VideoPlayerView.swift in Sources */,
+				4FA9795A24BD26F6005177DD /* TextCaseView.swift in Sources */,
+				4F9A0CB424BB797B0096B89C /* InsetGroupedListStyleView.swift in Sources */,
+				4FA9795824BD1C8F005177DD /* ExportActionView.swift in Sources */,
+				4F1EBD6724B6028C003FB3EB /* MatchedGeometryEffectView.swift in Sources */,
 				4FA141CF24AC86A300BB7754 /* DisclosureGroupView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
