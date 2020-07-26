@@ -53,3 +53,5 @@ struct StateObjectView_Previews: PreviewProvider {
         StateObjectView()
     }
 }
+
+
